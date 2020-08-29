@@ -37,7 +37,7 @@ function App(){
             <ul>
              {projects.map(project => <li key={project.id}>{project.title}</li>)}
              </ul>
-            <button type='button' onClick={HandleAddNewProject}>Adicionar projeto</button>
+            <button type='button' onClick={HandleAddNewProject}>Adicionar novo projeto</button>
            
              
         </>
